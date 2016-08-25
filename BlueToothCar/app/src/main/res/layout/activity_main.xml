@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mTvScan"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#48c0ef"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Scan"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mTvUp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#0e0bff"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="UP"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mTvLeft"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="#0e0bff"
+            android:gravity="center"
+            android:text="LEFT"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@+id/mTvStop"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="#0e0bff"
+            android:gravity="center"
+            android:text="STOP"
+            android:textColor="#ffffffff" />
+        <TextView
+            android:id="@+id/mTvRight"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_height="50dp"
+            android:background="#0e0bff"
+            android:gravity="center"
+            android:text="RIGHT"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mTvDown"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#0e0bff"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="DOWN"
+            android:textSize="14sp"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+
+</LinearLayout>
